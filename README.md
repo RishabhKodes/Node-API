@@ -1,2 +1,3 @@
 # Node-API
-a nodejs api
+A Nodejs API. 
+(Import npm packages before using the API.)
