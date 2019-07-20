@@ -4,7 +4,7 @@ const postController = require('../controllers/post')
 const router=express.Router()
 
 
-router.get('/', postController.getPosts)
+router.get('/login', postController.getPosts)
 
 
 module.exports = router;
