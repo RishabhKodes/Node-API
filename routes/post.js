@@ -5,7 +5,7 @@ const router=express.Router()
 
 
 router.get('/login', postController.getPosts)
-
+//add mongo database here
 
 module.exports = router;
 
