@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 dotenv.config()
 
 //db connection
-mongoose.connect("mongodb+srv://nodeapi_admin:rishabh7130@nodeapi-82uyp.gcp.mongodb.net/nodeapi?retryWrites=true&w=majority", 
+mongoose.connect("mongodb+srv://nodeapi_admin:#PASSWORD@nodeapi-82uyp.gcp.mongodb.net/nodeapi?retryWrites=true&w=majority", 
                 {useNewUrlParser: true}
                 )
 .then(() => console.log('DB Connected'))
