@@ -1,10 +1,10 @@
 exports.getPosts= (req, res) => {
     res.json(
         {
-        "name":"Rishabh",
-        "email":"rishabhbhandari6@gmail.com",
-        "reg_number":"18BIT000",
-        "password":"password"
+        "name":"(enter name)",
+        "email":"(enter your email)",
+        "reg_number":"(registration number)",
+        "password":"(password)"
        }
             );
 };
